@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>assignment</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="head">
+            <p>Credit Card Input Exercise</p>
+        </div>
+        <form action="">
+            <input type="number" class="number" id="number" placeholder="Card number" required onfocusin="checknum()">
+            <p></p>
+            <div class="date-code">
+                <div class="date">
+
+                    <input type="month" name="date" id="date" placeholder="MM/YY" pattern="[0-9]{2}/[0-9]{2}" required onfocusin="checkdate()">
+                    <p></p>
+                </div>
+                <div class="code">
+
+                    <input type="number" id="code"  placeholder="Security code" minlength="3" maxlength="3" required onfocusin="checkcode()">
+                    <p></p>
+                </div>
+            </div>
+            <div class="fullname">
+                <div class="name">
+                    <input type="text" name="" id="first"  placeholder="First name" required onfocusin="checkfirst()">
+                    <p></p>
+                </div>
+                <div class="name">
+                    <input type="text" name="" id="last"  placeholder="Last name" required onfocusin="checklast()">
+                    <p></p>
+                </div>
+            </div>
+            <button type="submit" id="btn">SUBMIT PAYMENT</button>
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 23%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.head{
+    background-color: #2a4ab3;
+    color: white;
+    padding: 8px;
+}
+form{
+    padding: 10px;
+}
+.number{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+.date-code{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.date,.code{
+    width: 48%;
+    /* padding: 10px; */
+}
+.code input{
+    width: 100%;
+    padding: 10px;
+}
+.date input{
+    width: 100%;
+    padding: 8px;
+}
+.fullname{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.name{
+    width: 48%;
+    /* padding: 10px; */
+
+}
+.name input{
+    width: 100%;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #41b741;
+    color: white;
+}
